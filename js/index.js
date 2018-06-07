@@ -1,32 +1,3 @@
-function welcome() {
-
-    var welcomeSection = $('.welcome-section'),
-        enterButton = welcomeSection.find('.enter-button');
-
-    setTimeout(function() {
-        welcomeSection.removeClass('content-hidden');
-    }, 500);
-
-    enterButton.on('click', function(e) {
-        e.preventDefault();
-        welcomeSection.addClass('content-hidden').fadeOut();
-    });
-
-}
-
-function initMap() {
-    var location = {lat: 47.668865, lng: 9.169712};
-    var map = new google.maps.Map(document.getElementById('map'), {
-        scrollwheel: false,
-        zoom: 18,
-        center:location
-    });
-    var marker = new google.maps.Marker({
-        position:location,
-        map: map
-    });
-}
-
 /*Scroll-Reveal */
 function scrollReveal(){
 
@@ -75,6 +46,43 @@ sr.reveal('#logoM',{
     mobile: true
 });
 }
+
+
+
+
+
+
+
+function welcome() {
+
+    var welcomeSection = $('.welcome-section'),
+        enterButton = welcomeSection.find('.enter-button');
+
+    setTimeout(function() {
+        welcomeSection.removeClass('content-hidden');
+    }, 500);
+
+    enterButton.on('click', function(e) {
+        e.preventDefault();
+        welcomeSection.addClass('content-hidden').fadeOut();
+    });
+
+}
+
+function initMap() {
+    var location = {lat: 47.668865, lng: 9.169712};
+    var map = new google.maps.Map(document.getElementById('map'), {
+        scrollwheel: false,
+        zoom: 18,
+        center:location
+    });
+    var marker = new google.maps.Marker({
+        position:location,
+        map: map
+    });
+}
+
+
 
 /*Logo vergörßert rotiert und vergrößert sich beim scrollen*/
 function scrollLogo() {

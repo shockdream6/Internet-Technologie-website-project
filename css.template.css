@@ -409,6 +409,87 @@ text-align:justify;
 #container-kontakt{
     margin-bottom:40px;
 }
+/*Kontak*/
+
+#contact{
+    margin-top:px;
+}
+#contact h2{
+    letter-spacing:5px;
+}
+#contact h3{
+    font-style:italic;
+}
+
+#email{
+    position:relative;
+    height:50px;
+    border:none;
+    font-size:18px;
+    border-bottom:2px solid rgba(0,0,0,0.5);
+    background:transparent;
+    border-radius:0;
+    transition:1s;
+    margin-bottom:30px;
+    letter-spacing:5px;
+}
+#name{
+    position:relative;
+    height:50px;
+    border:none;
+    font-size:18px;
+    border-bottom:2px solid rgba(0,0,0,0.5);
+    background:transparent;
+    border-radius:0;
+    transition:1s;
+    margin-bottom:30px;
+    letter-spacing:5px;
+}
+#textfeld{
+    height:150px;
+    border:none;
+    font-size:18px;
+    border-bottom:2px solid rgba(0,0,0,0.5);
+    background:transparent;
+    border-radius:0;
+    transition:1s;
+    letter-spacing:5px;
+    margin-bottom:50px;
+}
+#contact button{
+    width:100%;
+    background:transparent;
+    background-color:rgba(69, 232, 12,0.3); 
+    border:none;
+    border-bottom:3px solid rgba(0,0,0,0.5);
+    height:50px;
+    color:#001a1a;
+    font-size:24px;
+    letter-spacing:10px;
+}
+#name:focus{
+    transform:translateY(-30px);
+    font-size:15px;
+}
+#email:focus{
+    transform:translateY(-30px);
+    font-size:15px;
+}
+#textfeld:focus{
+    transform:translateY(-30px);
+    font-size:15px;
+}
+#container-kontakt{
+    margin-bottom:40px;
+}
+
+
+
+
+
+
+
+
 
 /*Scroll Back*/
 #scroll-back a{
@@ -439,6 +520,9 @@ text-align:justify;
     color:#006622;
     transform:rotate(360deg);
 }
+
+
+
 
 /*Footer*/
 
