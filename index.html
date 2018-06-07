@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>Stay-Healthy</title>
+    
     <link href="https://fonts.googleapis.com/css?family=Old+Standard+TTOpen+Sans" rel="stylesheet"> 
       
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.11/css/all.css" integrity="sha384-p2jx59pefphTFIpeqCcISO9MdVfIm4pNnsL08A6v5vaQc4owkQqxMV8kg4Yvhaw/" crossorigin="anonymous">
@@ -76,7 +77,6 @@
             <li><a href="Snacks.html">Snacks</a></li>
             <li><a href="Nachtisch.html">Nachtisch</a></li>
             <li><a href="Smoothie-Bar.html">Smoothie-Bar</a></li>
-            <li><a href="Impressum.html">Impressum</a></li>
           </ul>
         </div>
       </div>
@@ -247,32 +247,7 @@
         </div>
     </div>
 
-<!-- Kontakt-->
-    <div id="contact">
-      <div class="container">
-          <div id="container-kontakt">
-          <h2 class="text-center">Deine Meinung<img id="logoM" src="Bilder/nav-logo.png" alt="Logo" />Deine Rezepte</h2>
-          <h3 class="text-center">Sag uns deine Meinung und gebe uns neue Inspirationen</h3>
-          <hr>
-          </div>
-    <form>
-      <div class="form-group ">
-    <input type="text" class="form-control" id="name"  placeholder="Name">
-      </div>
-      <div class="form-group">
-       <input type="email" class="form-control" id="email" placeholder="E-Mail">
-      </div>
-        <div class="form-group">
-    <textarea class="form-control" id="textfeld" rows="3" placeholder="Inspiriere uns !"></textarea>
-  </div>
-        
-      <button type="submit" class="btn btn-primary">Absenden</button>
-    </form>
-          
-  
-      </div>
-        
-</div>
+
       
 <!-- Scroll Back -->
     <div class="container" id="scroll-back">
@@ -286,17 +261,17 @@
       <div class="container">
           <div class="row">
               <div class="col-sm-2">
-                  <h6>Copyright &copy; 2018</h6>
+                  <h4>Copyright &copy; 2018</h4>
                  
               </div>
               <div class="col-sm-4">
-                  <h6>About</h6>
+                  <h4>About</h4>
                   <p>Diese Seite wurde im Rahmen eines Studienprojektes entwickelt. Sie ziehlt darauf ab Personen zu animieren sich gut und gesund zu ernähren. Des Weiteren ist jeder eingeladen, eigene Ideen und Rezepte vorzuschlagen. Guten Appetit and Stay Healthy.</p>
                  
               </div>
               
               <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="logo-bar">
-                  <h6>Follow US</h6>
+                  <h4>Follow US</h4>
                   <ul class="container img-responsive">
                       <li><a href="#"><img src="Bilder/facebook.png"  style="width:15%" alt="facebook" ></a></li>
                       <li><a href="#"><img src="Bilder/youtube.png"  style="width:15%" alt="youtube" ></a></li>
@@ -305,7 +280,13 @@
                   
               </div>
               <div class="col-sm-2" >
-                  <h6>Coded with <span class="glyphicon glyphicon-heart"></span> byAnthonyAndMichael</h6>
+                  <h4 class="impressum"><a href="Impressum.html">Impressum</a></h4>
+              </div>
+              
+              
+              
+              <div class="col-sm-2" >
+                  <h5>Coded with <span class="glyphicon glyphicon-heart"></span> byAnthonyAndMichael</h5>
               </div>
               
           </div>
@@ -314,15 +295,14 @@
 </footer>
 
     <!-- script frenzies starting -->
-   <script>
-         welcome();
-    initMap();
-         scrollReveal();
-      /*Logo vergörßert rotiert und vergrößert sich beim scrollen*/  
-    scrollLogo();
-          /*Scroll-Back*/
-          scrollBack();
-    </script>
+      <script> welcome();</script>
+      <script> scrollLogo();</script>
+      <script> scrollBack();</script>
+      <script>initMap();</script>
+      <script> scrollReveal();</script>
+      <script> cookieUserRead();</script>
+       
+ 
 
 
    
@@ -341,14 +321,5 @@
     <a href="">Mehr erfahren</a></p>
 
     </div>
-
-    <script>
-cookieUserRead();
-    </script>
-
-    <!-- Cookie Banner Script End -->
-
-      
-      
-  </body>
+    </body>
 </html>
