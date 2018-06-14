@@ -10,4 +10,5 @@ while($row =$query->fetch_object()){
 
 }
 print_r($articles);
+
 ?>
