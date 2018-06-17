@@ -191,7 +191,7 @@ The `sync()` method updates asynchronously loaded content with any existing reve
 _Example:_
 
 ```html
-<!-- index.html -->
+index.php
 <div id="fooContainer">
   <div class="foo">foo</div>
   <div class="foo">foo</div>

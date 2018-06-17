@@ -1,14 +1,7 @@
 <?php
 //Database connection
-$db = new mysqli('localhost','root','root','internetProjectWebsite');
+$db = new mysqli('localhost','root','','website');
 
-//all articles
-$query = $db->query('SELECT * FROM articles');
+//print_r($articles);
 
-while($row =$query->fetch_object()){
-    $articles[]=$row;
 
-}
-print_r($articles);
-
-?>
