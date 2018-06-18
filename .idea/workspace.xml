@@ -2,31 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c0a43ad-09e0-4245-b1e3-64dbb2528ac9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/applications.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bitnami.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/formContact.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starRating.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CousCous.html" beforeDir="false" afterPath="$PROJECT_DIR$/CousCous.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fleischgerichte.html" beforeDir="false" afterPath="$PROJECT_DIR$/Fleischgerichte.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Impressum.html" beforeDir="false" afterPath="$PROJECT_DIR$/Impressum.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nachtisch.html" beforeDir="false" afterPath="$PROJECT_DIR$/Nachtisch.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NudelGerichte.html" beforeDir="false" afterPath="$PROJECT_DIR$/NudelGerichte.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reisgerichte.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reisgerichte.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rezepte.html" beforeDir="false" afterPath="$PROJECT_DIR$/Rezepte.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Salate.html" beforeDir="false" afterPath="$PROJECT_DIR$/Salate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Smoothie-Bar.html" beforeDir="false" afterPath="$PROJECT_DIR$/Smoothie-Bar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/Anthony.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/Anthony.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/Fleisch Main.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/Fleisch Main.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/Michael.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/Michael.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/Nudel1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/Nudel1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/Pasta2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/Pasta2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/Reis Main.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/Reis Main.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/Reis1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/Reis1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/Reis2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/Reis2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/Reis3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/Reis3.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/Reis4.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/Reis4.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/Reis5.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/Reis5.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/Reis6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/Reis6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/Salat2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/Salat2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/SalatMain.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/SalatMain.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/Suppe Main.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/Suppe Main.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/Suppe1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/Suppe1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/Suppe2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/Suppe2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/Suppe3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/Suppe3.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/Suppe4.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/Suppe4.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/Suppe5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/Suppe5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/Suppe6.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/Suppe6.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/Zucchini Pasta.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/Zucchini Pasta.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/couscous1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/couscous1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/couscous2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/couscous2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/couscous3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/couscous3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/couscous4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/couscous4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/couscous5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/couscous5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/couscous6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/couscous6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/couscousMain.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/couscousMain.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/facebook.png" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/facebook.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/fleisch1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/fleisch1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/fleisch2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/fleisch2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/fleisch3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/fleisch3.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/fleisch4.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/fleisch4.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/fleisch5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/fleisch5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/fleisch6.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/fleisch6.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/food-title.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/food-title.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/kellner.png" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/kellner.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/main-food-title.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/main-food-title.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/messer.png" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/messer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/nav-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/nav-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/pasta1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/pasta1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/pulbiber pasa.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/pulbiber pasa.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/salat1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/salat1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/salat3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/salat3.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/salat4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/salat4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/salat5.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/salat5.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/salat6.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/salat6.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/side-food-title.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/side-food-title.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/smoothie.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/smoothie.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/spinat pasta.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/spinat pasta.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/topf.png" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/topf.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/twitter.png" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/twitter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/walnuss-pasta.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/walnuss-pasta.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilder/youtube.png" beforeDir="false" afterPath="$PROJECT_DIR$/Bilder/youtube.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Snacks.html" beforeDir="false" afterPath="$PROJECT_DIR$/Snacks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Suppen.html" beforeDir="false" afterPath="$PROJECT_DIR$/Suppen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article.php" beforeDir="false" afterPath="$PROJECT_DIR$/article.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/init.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrollreveal-master/scrollreveal-master/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/scrollreveal-master/scrollreveal-master/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,25 +74,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1880">
-              <caret line="94" column="56" selection-start-line="94" selection-start-column="56" selection-end-line="111" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="860">
-              <caret line="291" column="45" lean-forward="true" selection-start-line="291" selection-start-column="45" selection-end-line="291" selection-end-column="45" />
+            <state relative-caret-position="1569">
+              <caret line="287" column="16" selection-start-line="287" selection-start-column="16" selection-end-line="287" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NudelGerichte.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Snacks.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Snacks.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1136">
+              <caret line="166" column="47" lean-forward="true" selection-start-line="166" selection-start-column="47" selection-end-line="166" selection-end-column="47" />
+              <folding>
+                <element signature="e#11476#11482#0" expanded="true" />
+                <element signature="e#12065#12071#0" expanded="true" />
+                <element signature="e#12716#12722#0" expanded="true" />
+                <element signature="e#13345#13351#0" expanded="true" />
+                <element signature="e#14025#14031#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="init.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/init.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="3" selection-start-line="2" selection-end-line="2" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Fleischgerichte" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fleischgerichte">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Fleischgerichte.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fleischgerichte.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="debug.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/debug.log">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="NudelGerichte.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NudelGerichte.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="9129">
@@ -68,55 +133,28 @@
         </entry>
       </file>
       <file leaf-file-name="starRating.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/starRating.php">
+        <entry file="file://$PROJECT_DIR$/php/starRating.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="140">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="formContact.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/formContact.php">
+        <entry file="file://$PROJECT_DIR$/php/formContact.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="840">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="init.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/init.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-end-line="2" selection-end-column="3" />
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="hello.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hello.php">
+        <entry file="file://$PROJECT_DIR$/php/hello.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="620">
               <caret line="31" selection-start-line="31" selection-end-line="31" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="article.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/article.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="39" column="61" lean-forward="true" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rate.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rate.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -130,6 +168,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>meinModal</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -141,13 +184,14 @@
         <option value="$PROJECT_DIR$/xampp/rate.php" />
         <option value="$PROJECT_DIR$/hello.php" />
         <option value="$PROJECT_DIR$/init.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/formContact.php" />
         <option value="$PROJECT_DIR$/NudelGerichte.html" />
         <option value="$PROJECT_DIR$/article.php" />
         <option value="$PROJECT_DIR$/rate.php" />
         <option value="$PROJECT_DIR$/starRating.php" />
         <option value="$PROJECT_DIR$/NudelGerichte.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/Snacks.html" />
       </list>
     </option>
   </component>
@@ -178,6 +222,16 @@
             <path>
               <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
               <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="php" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -236,10 +290,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23503000" />
+    <option name="totallyTimeSpent" value="30333000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1058" y="-278" width="1066" height="1666" extended-state="6" />
+    <frame x="-1058" y="-266" width="1066" height="1666" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -249,19 +303,33 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.22695035" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.07904762" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10666667" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.53707284" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.07904762" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22695035" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.53707284" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +339,94 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1880">
+          <caret line="94" column="56" selection-start-line="94" selection-start-column="56" selection-end-line="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/hello.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../phpMyAdmin/setup/frames/config.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applications.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/rate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="39" column="65" selection-start-line="39" selection-start-column="65" selection-end-line="39" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NudelGerichte.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9129">
+          <caret line="671" column="41" selection-start-line="671" selection-start-column="41" selection-end-line="671" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootsrappCss/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/Impressum.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/Impressum.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="306" column="14" selection-start-line="306" selection-start-column="14" selection-end-line="306" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/rezepte.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1777" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/rezepte.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="88" column="1" selection-start-line="88" selection-start-column="1" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fleischgerichte">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fleischgerichte.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1880">
@@ -434,17 +590,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="860">
-          <caret line="291" column="45" lean-forward="true" selection-start-line="291" selection-start-column="45" selection-end-line="291" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NudelGerichte.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9129">
           <caret line="671" column="41" selection-start-line="671" selection-start-column="41" selection-end-line="671" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/css.template.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/hello.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="31" selection-start-line="31" selection-end-line="31" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/formContact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="3" selection-start-line="2" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/starRating.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1569">
+          <caret line="287" column="16" selection-start-line="287" selection-start-column="16" selection-end-line="287" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Snacks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1136">
+          <caret line="166" column="47" lean-forward="true" selection-start-line="166" selection-start-column="47" selection-end-line="166" selection-end-column="47" />
+          <folding>
+            <element signature="e#11476#11482#0" expanded="true" />
+            <element signature="e#12065#12071#0" expanded="true" />
+            <element signature="e#12716#12722#0" expanded="true" />
+            <element signature="e#13345#13351#0" expanded="true" />
+            <element signature="e#14025#14031#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

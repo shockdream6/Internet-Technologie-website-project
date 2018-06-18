@@ -1,350 +1,1149 @@
 <!DOCTYPE html>
 <html lang="de">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-      
-      <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT|Open+Sans" rel="stylesheet"> 
-      
-      
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.11/css/all.css" integrity="sha384-p2jx59pefphTFIpeqCcISO9MdVfIm4pNnsL08A6v5vaQc4owkQqxMV8kg4Yvhaw/" crossorigin="anonymous">
-      
+
+    <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT|Open+Sans" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.11/css/all.css"
+          integrity="sha384-p2jx59pefphTFIpeqCcISO9MdVfIm4pNnsL08A6v5vaQc4owkQqxMV8kg4Yvhaw/" crossorigin="anonymous">
+
     <script src="scrollreveal-master/scrollreveal-master/dist/scrollreveal.min.js"></script>
 
-      
-      <!-- Favicon -->
-      <link rel="icon" href="Bilder/logo.ico" type="image/x-icon">
-        
-      <!-- Bootstrap -->
+
+    <!-- Favicon -->
+    <link rel="icon" href="Bilder/logo.ico" type="image/x-icon">
+
+    <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
-      <!-- Eigene css Datei (CSS-Dateien werden werden linear von oben nach unten abgearbeitet.)Überschreibt die Boostrap Datei -->
+    <!-- Eigene css Datei (CSS-Dateien werden werden linear von oben nach unten abgearbeitet.)Überschreibt die Boostrap Datei -->
     <link href="css/NudelGerichte.css" rel="stylesheet" type="text/css">
 </head>
-  <body>
-    <!-- Fixierte Navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top role=navigation ">
-      <div class="container" id="text-element">
-     <!-- Logo-Start -->
-          <a href="index.php">
-    <div id="text-logo">
-      <p><img id="image-size" src="Bilder/nav-logo.png"/>StayHealthy</p>
-    </div>
-              
-          </a>
-    <!-- Logo-Ende -->   
+<body>
+<!-- Fixierte Navbar -->
+<nav class="navbar navbar-default navbar-fixed-top role=navigation ">
+    <div class="container" id="text-element">
+        <!-- Logo-Start -->
+        <a href="index.php">
+            <div id="text-logo">
+                <p><img id="image-size" src="Bilder/nav-logo.png"/>StayHealthy</p>
+            </div>
+
+        </a>
+        <!-- Logo-Ende -->
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Navigation ein-/ausblenden</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Navigation ein-/ausblenden</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="index.php">Home</a></li>
-                
-              <li><a href="Rezepte.html">Rezepte</a></li>
-             
-            <li><a href="Snacks.html">Snacks</a></li>
-            <li><a href="Nachtisch.html">Nachtisch</a></li>
-            <li><a href="Smoothie-Bar.html">Smoothie-Bar</a></li>
-            <li><a href="Impressum.html">Impressum</a></li>
-          </ul>
+            <ul class="nav navbar-nav">
+                <li><a href="index.php">Home</a></li>
+
+                <li><a href="Rezepte.html">Rezepte</a></li>
+
+                <li><a href="Snacks.html">Snacks</a></li>
+                <li><a href="Nachtisch.html">Nachtisch</a></li>
+                <li><a href="Smoothie-Bar.html">Smoothie-Bar</a></li>
+                <li><a href="Impressum.html">Impressum</a></li>
+            </ul>
         </div>
-      </div>
-    </nav>
-    
+    </div>
+</nav>
+
 <div class="jumbotron text-center">
-        <div class="container">
-          <h1 class="display-3 main-title">Snack It !</h1>
-            <hr>
-          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd .</p>
-        </div>
+    <div class="container">
+        <h1 class="display-3 main-title">Snack It !</h1>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+            dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+            clita kasd .</p>
+    </div>
 </div>
 
+<!--Snack 1 -->
 <div id="first-container">
-<div class="container">
-  <div class="row">
-    <div class="col sm-4 col-md-4 c1" >
-      <div class="thumbnail background1">
-          <img src="Bilder/pasta1.jpg" alt="Pasta1" style="width:100%">
-          <div class="caption">
-            <h3>Nudeln mit Tomatensoße Schafskäse und Oliven</h3>
-            <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</h4>
-              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#meinModal">
-                <span>Snack It !</span> 
-              </button>
+    <div class="container">
+        <div class="row">
+            <div class="col sm-4 col-md-4 c1">
+                <div class="thumbnail background1">
+                    <img src="Bilder/Snacks1.jpg" alt="Pasta1" style="width:100%">
+                    <div class="caption">
+                        <h3>Ziegenkäsetoast mit Zwiebelkonfitüre und Salat</h3>
+                        <h4>Für zwei Personen. <br> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                            nonumy eirmod tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</h4>
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal"
+                                data-target="#meinModal">
+                            <span>Snack It !</span>
+                        </button>
+                    </div>
+                </div>
             </div>
-    </div>
-      </div>
-       <div class="col-md-4 c2">
-      <div class="thumbnail background2">
-          <img src="Bilder/food-title.jpeg" alt="Pasta2" style="width:100%">
-          <div class="caption">
-            <h3>Nudeln mit Tomatensoße Schafskäse und Oliven</h3>
-              <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</h4>
-              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#meinModal">
-                <span>Snack It !</span> 
-              </button>
-              
-        </div>
-      </div>
-    </div>
-       <div class="col-md-4 c3">
-      <div class="thumbnail background3">
-          <img src="Bilder/food-title.jpeg" alt="Pasta3" style="width:100%">
-          <div class="caption">
-            <h3>Nudeln mit Tomatensoße Schafskäse und Oliven</h3>
-              <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</h4>
-              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#meinModal">
-                <span>Snack It !</span> 
-              </button>
-        </div>
-      </div>
-    </div>
-    </div>
-    </div>
-  
+            <!--Snack 2-->
+            <div class="col-md-4 c2">
+                <div class="thumbnail background2">
+                    <img src="Bilder/Snack2.jpg" alt="Pasta2" style="width:100%">
+                    <div class="caption">
+                        <h3>Spinatpfannkuchen</h3>
+                        <h4>Für zwei Personen. <br> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                            nonumy eirmod tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</h4>
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal"
+                                data-target="#meinModal2">
+                            <span>Snack It !</span>
+                        </button>
 
-<div class="container">
-  <div class="row">
-       <div class="col-md-4 c4">
-      <div class="thumbnail background3">
-          <img src="Bilder/food-title.jpeg" alt="Pasta4" style="width:100%">
-          <div class="caption">
-            <h3>Nudeln mit Tomatensoße Schafskäse und Oliven</h3>
-              <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</h4>
-              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#meinModal">
-                <span>Snack It !</span> 
-              </button>
-         </div>
-      </div>
-    </div>
-       <div class="col-md-4 c5">
-      <div class="thumbnail background2">
-          <img src="Bilder/food-title.jpeg" alt="Pasta5" style="width:100%">
-          <div class="caption">
-            <h3>Nudeln mit Tomatensoße Schafskäse und Oliven</h3>
-              <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</h4>
-              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#meinModal">
-                <span>Snack It !</span> 
-              </button>
-          </div>
-      </div>
-    </div>
-       <div class="col-md-4 c6">
-      <div class="thumbnail background1">
-          <img src="Bilder/food-title.jpeg" alt="Pasta6" style="width:100%">
-          <div class="caption">
-            <h3>Nudeln mit Tomatensoße Schafskäse und Oliven</h3>
-              <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</h4>
-              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#meinModal">
-                <span>Snack It !</span> 
-              </button>
+                    </div>
+                </div>
             </div>
-      </div>
+            <!-- Snack 3 -->
+            <div class="col-md-4 c3">
+                <div class="thumbnail background3">
+                    <img src="Bilder/Snack3.jpg" alt="Pasta3" style="width:100%">
+                    <div class="caption">
+                        <h3>Zucchini-Omelett</h3>
+                        <h4>Für 1 Person. <br> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                            eirmod tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</h4>
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal"
+                                data-target="#meinModal3">
+                            <span>Snack It !</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-  </div>
+    <!-- Snack 4 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 c4">
+                <div class="thumbnail background3">
+                    <img src="Bilder/Snack4.jpg" alt="Pasta4" style="width:100%">
+                    <div class="caption">
+                        <h3>Gebratener Feta auf Blattspinat</h3>
+                        <h4>Für 2 Personen. <br>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                            eirmod tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</h4>
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal"
+                                data-target="#meinModal4">
+                            <span>Snack It !</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!--Snack 5-->
+            <div class="col-md-4 c5">
+                <div class="thumbnail background2">
+                    <img src="Bilder/Snack5.jpg" alt="Pasta5" style="width:100%">
+                    <div class="caption">
+                        <h3>Überbackenes Baguette</h3>
+                        <h4>Für 2-3 Personen. <br> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                            nonumy eirmod tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</h4>
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal"
+                                data-target="#meinModal5">
+                            <span>Snack It !</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!--Snack 6 -->
+            <div class="col-md-4 c6">
+                <div class="thumbnail background1">
+                    <img src="Bilder/Snack6.jpg" alt="Pasta6" style="width:100%">
+                    <div class="caption">
+                        <h3>Empanadas Argentinas</h3>
+                        <h4>Für 3 Personen.<br>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                            eirmod tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</h4>
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal"
+                                data-target="#meinModal6">
+                            <span>Snack It !</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
 </div>
-</div>
- 
-<!-- Rezept Nudelgericht 1 -->
+
+<!-- Rezept Snack 1 -->
 <div class="modal fade" id="meinModal" tabindex="-1" role="dialog" aria-labelledby="meinModalLabel">
-  <div class="modal-dialog " role="document">
-    <div class="modal-content" id="contantBackground">
-      <div class="modal-header">
-        <button id="button-close" type="button" class="close" data-dismiss="modal" aria-label="Schließen"><i class="fas fa-times-circle"></i></button>
-          
-        
-  
-          
-        <h3 class="modal-title" id="meinModalLabel">Nudeln mit Tomatensoße Schafskäse und Oliven</h3>
-        
-          <hr>
-      </div>
-      <div class="modal-body background3">
+    <div class="modal-dialog " role="document">
+        <div class="modal-content" id="contantBackground">
+            <div class="modal-header">
+                <button id="button-close" type="button" class="close" data-dismiss="modal" aria-label="Schließen"><i
+                        class="fas fa-times-circle"></i></button>
 
-    <table class="table table-striped zutaten-liste">
-      <thead>
-        <tr>
-          <th scope="col">Zutaten</th>
-          <th scope="col">Menge</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">Pinenkerne</th>
-          <td>40g</td>
-          </tr>
-        <tr>
-          <th scope="row">Blattspinat</th>
-          <td>250g</td>
-        </tr>
-        <tr>
-          <th scope="row">Olivenöl</th>
-          <td>200ml</td>
-        </tr>
-          <tr>
-          <th scope="row">Spaghetti</th>
-          <td>300g</td>
-        </tr>
-          <tr>
-          <th scope="row">Ricottakäse</th>
-          <td>40g</td>
-        </tr>
-      </tbody>
-    </table>
-<div id="rezept-box">    
-<div class="jumbotron jumbotron-fluid jumbotron-rezept">
-  <div class="container">
-    <h3 class="display-3">Zubereitung Step.1 &nbsp; <img src="Bilder/messer.png"></h3>
-      <hr>
-    <p class="lead">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-  </div>
-</div>
-<div class="jumbotron jumbotron-fluid jumbotron-rezept">
-  <div class="container">
-      <h3 class="display-3">Zubereitung Step.2 &nbsp; <img src="Bilder/topf.png"></h3>
-      <hr>
-    <p class="lead">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-  </div>
-</div>
-<div class="jumbotron jumbotron-fluid jumbotron-rezept">
-  <div class="container">
-    <h3 class="display-3">Zubereitung Step.3 &nbsp; <img src="Bilder/kellner.png"></h3>
-      <hr>
-    <p class="lead">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-  </div>
-</div>
-    <div id="star">
-        <span id="star1"><i class="far fa-star"></i></span>
-        <span id="star2"><i class="far fa-star"></i></span>
-        <span id="star3"><i class="far fa-star"></i></span>
-        <span id="star4"><i class="far fa-star"></i></span>
-        <span id="star5"><i class="far fa-star"></i></span>
+
+                <h3 class="modal-title" id="meinModalLabel">Ziegenkäsetoast mit Zwiebelkonfitüre und Salat</h3>
+
+                <hr>
+            </div>
+            <div class="modal-body background3">
+
+                <!-- Rezept 1 inside -->
+
+
+                <table class="table table-striped zutaten-liste">
+                    <thead>
+                    <tr>
+                        <th scope="col">Zutaten</th>
+                        <th scope="col">Menge</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">Schwarze Oliven ohne Stein</th>
+                        <td>1 Glass</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Salz</th>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Pfeffer</th>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Olivenöl</th>
+                        <td>5 Esslöffel</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Ziegenweichkäse</th>
+                        <td>3 Stück</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">frisches Hausbrot</th>
+                        <td>2 große Scheiben</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">getrockneter Thymian</th>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Zwiebeln</th>
+                        <td>2 Stück</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Butter</th>
+                        <td>1 Stück</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Honig</th>
+                        <td>2 Esslöffel</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">gemischter Salat</th>
+                        <td>1 Tüte</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Knoblauchzehe</th>
+                        <td>1 Stück</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">scharfer Senf</th>
+                        <td>1 Teelöffel</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Weinessig</th>
+                        <td>1 Esslöffel</td>
+                    </tr>
+
+
+                    </tbody>
+                </table>
+
+                <div id="rezept-box">
+                    <div class="jumbotron jumbotron-fluid jumbotron-rezept">
+                        <div class="container">
+                            <h3 class="display-3">Zubereitung Step.1 &nbsp; <img src="Bilder/messer.png"></h3>
+                            <hr>
+                            <p class="lead"> Oliven abtropfen lassen, mit Salz, Pfeffer und Olivenöl fein pürieren.
+                                Ziegenkäse in 1/2 cm dicke Scheiben schneiden. Den Backofen auf 180°C vorheizen.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="jumbotron jumbotron-fluid jumbotron-rezept">
+                        <div class="container">
+                            <h3 class="display-3">Zubereitung Step.2 &nbsp; <img src="Bilder/topf.png"></h3>
+                            <hr>
+                            <p class="lead">Brotscheiben mit Olivenpaste mit Olivenpaste bestreichen,
+                                mit Ziegenkäse belegen und mit Thymian bestreuen. Im vorgeheizten Ofen 8-10 Minuten
+                                backen, bis der Käse leicht zerlaufen ist.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="jumbotron jumbotron-fluid jumbotron-rezept">
+                        <div class="container">
+                            <h3 class="display-3">Zubereitung Step.3 &nbsp; <img src="Bilder/kellner.png"></h3>
+                            <hr>
+                            <p class="lead">Inzwischen Zwiebeln schälen und in dünne Streifen schneiden.
+                                Butter in eine Pfanne erhitzen, Zwiebeln darin glasig dünsten. Honig unterrühren,
+                                vom Herd nehmen.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="jumbotron jumbotron-fluid jumbotron-rezept">
+                        <div class="container">
+                            <h3 class="display-3">Zubereitung Step.4 &nbsp; <img src="Bilder/kellner.png"></h3>
+                            <hr>
+                            <p class="lead">Salat waschen und trockenschleudern. Knoblauch schälen und hacken.
+                                Senf und Essig mit Salz und Pfeffer verrühren, da Öl nach und nach unterschlagen,
+                                so dass ein sämiges Dressing entsteht. Mit dem Salat mischen.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="jumbotron jumbotron-fluid jumbotron-rezept">
+                        <div class="container">
+                            <h3 class="display-3">Zubereitung Step.5 &nbsp; <img src="Bilder/kellner.png"></h3>
+                            <hr>
+                            <p class="lead">Ziegenkäsetoasts aus dem Ofen nehmen, mit Zwiebelkonfitüre
+                                und Salat anrichten.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div id="star">
+                        <span id="star1"><i class="far fa-star"></i></span>
+                        <span id="star2"><i class="far fa-star"></i></span>
+                        <span id="star3"><i class="far fa-star"></i></span>
+                        <span id="star4"><i class="far fa-star"></i></span>
+                        <span id="star5"><i class="far fa-star"></i></span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+            </div>
+        </div>
     </div>
-    
-</div>      
+</div>
+
+<!-- Rezept Snack 2 -->
+<div class="modal fade" id="meinModal2" tabindex="-1" role="dialog" aria-labelledby="meinModalLabel">
+    <div class="modal-dialog " role="document">
+        <div class="modal-content" id="contantBackground">
+            <div class="modal-header">
+                <button id="button-close" type="button" class="close" data-dismiss="modal" aria-label="Schließen"><i
+                        class="fas fa-times-circle"></i></button>
+
+
+                <h3 class="modal-title" id="meinModalLabel">Spinatpfannkuchen</h3>
+
+                <hr>
+            </div>
+            <div class="modal-body background3">
+
+                <!-- Rezept 2 inside -->
+
+
+                <table class="table table-striped zutaten-liste">
+                    <thead>
+                    <tr>
+                        <th scope="col">Zutaten</th>
+                        <th scope="col">Menge</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">junger Blattspinat</th>
+                        <td>450g</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Eier</th>
+                        <td>2 Stück</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Milch</th>
+                        <td>250ml</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Mehl</th>
+                        <td>150g</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Salz</th>
+                        <td>1/2 Teelöffel</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">frisch geriebene Muskatnuss
+                        </th>
+                        <td>1 Prise</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Butter zum Backen</th>
+                        <td></td>
+                    </tr>
+
+
+                    </tbody>
+                </table>
+
+                <div id="rezept-box">
+                    <div class="jumbotron jumbotron-fluid jumbotron-rezept">
+                        <div class="container">
+                            <h3 class="display-3">Zubereitung Step.1 &nbsp; <img src="Bilder/messer.png"></h3>
+                            <hr>
+                            <p class="lead"> Spinat in einem Sieb auftauen lassen.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="jumbotron jumbotron-fluid jumbotron-rezept">
+                        <div class="container">
+                            <h3 class="display-3">Zubereitung Step.2 &nbsp; <img src="Bilder/topf.png"></h3>
+                            <hr>
+                            <p class="lead">Eier in einer Schüssel mit Milch, Mehl, Salz,
+                                Pfeffer und Muskat zu einem dickflüssigen Teig
+                                verrühren. Spinat untermischen.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="jumbotron jumbotron-fluid jumbotron-rezept">
+                        <div class="container">
+                            <h3 class="display-3">Zubereitung Step.3 &nbsp; <img src="Bilder/kellner.png"></h3>
+                            <hr>
+                            <p class="lead"> Butter in einer beschichteten Pfanne schmelzen
+                                (nicht braun werden lassen). Ein Viertel Teig darin
+                                verteilen und von beiden Seiten goldbraun backen.
+                                Zum Wenden den Pfannendeckel Oder einen
+                                flachen Teller zur Hilfe nehmen!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="jumbotron jumbotron-fluid jumbotron-rezept">
+                        <div class="container">
+                            <h3 class="display-3">Zubereitung Step.4 &nbsp; <img src="Bilder/kellner.png"></h3>
+                            <hr>
+                            <p class="lead">Nacheinander 3 weitere Pfannkuchen backen.
+                                Evtl. im Backofen warm halten, bis alle fertig sind.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div id="star">
+                        <span id="star1"><i class="far fa-star"></i></span>
+                        <span id="star2"><i class="far fa-star"></i></span>
+                        <span id="star3"><i class="far fa-star"></i></span>
+                        <span id="star4"><i class="far fa-star"></i></span>
+                        <span id="star5"><i class="far fa-star"></i></span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+            </div>
+        </div>
     </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
-      </div>
-    </div>
-  </div>
 </div>
 
 
+<!-- Rezept Snack 3 -->
+<div class="modal fade" id="meinModal3" tabindex="-1" role="dialog" aria-labelledby="meinModalLabel">
+    <div class="modal-dialog " role="document">
+        <div class="modal-content" id="contantBackground">
+            <div class="modal-header">
+                <button id="button-close" type="button" class="close" data-dismiss="modal" aria-label="Schließen"><i
+                        class="fas fa-times-circle"></i></button>
 
-      
+
+                <h3 class="modal-title" id="meinModalLabel">Zucchini-Omelett</h3>
+
+                <hr>
+            </div>
+            <div class="modal-body background3">
+
+                <!-- Rezept 2 inside -->
+
+
+                <table class="table table-striped zutaten-liste">
+                    <thead>
+                    <tr>
+                        <th scope="col">Zutaten</th>
+                        <th scope="col">Menge</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">Zucchini</th>
+                        <td>1 kleine Oder 1/2 große</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Zitronensaft</th>
+                        <td>2 Esslöffel</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Eier</th>
+                        <td>2 Stück</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">evtl. Mineralwasser mit Kohlensäure</th>
+                        <td>1 Schuss</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Butter Oder Margarine zum Braten
+                        </th>
+                        <td></td>
+                    </tr>
+
+
+                    </tbody>
+                </table>
+
+                <div id="rezept-box">
+                    <div class="jumbotron jumbotron-fluid jumbotron-rezept">
+                        <div class="container">
+                            <h3 class="display-3">Zubereitung Step.1 &nbsp; <img src="Bilder/messer.png"></h3>
+                            <hr>
+                            <p class="lead"> Zucchini putzen und in ca. 1 Zentimeter dicke
+                                Scheiben schneiden. Von beiden Seiten mit
+                                Zitronensaft beträufeln.
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="jumbotron jumbotron-fluid jumbotron-rezept">
+                        <div class="container">
+                            <h3 class="display-3">Zubereitung Step.2 &nbsp; <img src="Bilder/topf.png"></h3>
+                            <hr>
+                            <p class="lead">Die Eier mit Milch Oder Sahne, Salz und Pfeffer
+                                verquirlen. Wer ein besonders fluffiges Omelett
+                                möchte, gibt etwas Mineralwasser hinzu.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="jumbotron jumbotron-fluid jumbotron-rezept">
+                        <div class="container">
+                            <h3 class="display-3">Zubereitung Step.3 &nbsp; <img src="Bilder/kellner.png"></h3>
+                            <hr>
+                            <p class="lead"> Butter Oder Margarine bei mittlerer Hitze in
+                                einer Pfanne schmelzen. Die Zucchinischeiben
+                                darin von beiden Seiten braun braten. Die
+                                Eiercreme noch einmal durchschlagen und
+                                darübergießen.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="jumbotron jumbotron-fluid jumbotron-rezept">
+                        <div class="container">
+                            <h3 class="display-3">Zubereitung Step.4 &nbsp; <img src="Bilder/kellner.png"></h3>
+                            <hr>
+                            <p class="lead">Das Omelett bei geringer Hitze und aufgelegtem
+                                Deckel stocken lassen (es wird nur von einer Seite
+                                gebraten) - nicht zu lang, sonst wird es trocken!
+                                Dann auf einen Teller gleiten lassen und dabei
+                                zusammenklappen. Dazu schmeckt am besten
+                                eine Scheibe Brot mit Butter
+                            </p>
+                        </div>
+                    </div>
+
+                    <div id="star">
+                        <span id="star1"><i class="far fa-star"></i></span>
+                        <span id="star2"><i class="far fa-star"></i></span>
+                        <span id="star3"><i class="far fa-star"></i></span>
+                        <span id="star4"><i class="far fa-star"></i></span>
+                        <span id="star5"><i class="far fa-star"></i></span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Rezept Snack 4 -->
+<div class="modal fade" id="meinModal4" tabindex="-1" role="dialog" aria-labelledby="meinModalLabel">
+    <div class="modal-dialog " role="document">
+        <div class="modal-content" id="contantBackground">
+            <div class="modal-header">
+                <button id="button-close" type="button" class="close" data-dismiss="modal" aria-label="Schließen"><i
+                        class="fas fa-times-circle"></i></button>
+
+
+                <h3 class="modal-title" id="meinModalLabel">Gebratener Feta auf Blattspinat </h3>
+
+                <hr>
+            </div>
+            <div class="modal-body background3">
+
+                <!-- Rezept 2 inside -->
+
+
+                <table class="table table-striped zutaten-liste">
+                    <thead>
+                    <tr>
+                        <th scope="col">Zutaten</th>
+                        <th scope="col">Menge</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">Zwiebel</th>
+                        <td>1 Stück</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Knoblauchzehe</th>
+                        <td>1 Stück</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"> Tomaten</th>
+                        <td>2 Stück</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">TK-Blattspinat</th>
+                        <td>300g</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Feta</th>
+                        <td>200g</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Semmelbrösel</th>
+                        <td>2-3 Esslöffel</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">getr. Thymian</th>
+                        <td>1/2 Teelöffel</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Salz</th>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Pfeffer</th>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">frisch geriebene Muskatnuss</th>
+                        <td></td>
+                    </tr>
+
+
+                    </tbody>
+                </table>
+
+                <div id="rezept-box">
+                    <div class="jumbotron jumbotron-fluid jumbotron-rezept">
+                        <div class="container">
+                            <h3 class="display-3">Zubereitung Step.1 &nbsp; <img src="Bilder/messer.png"></h3>
+                            <hr>
+                            <p class="lead"> Zwiebel und Knoblauch schälen und hacken.
+                                Tomaten würfeln, dabei vom Stielansatz befreien.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="jumbotron jumbotron-fluid jumbotron-rezept">
+                        <div class="container">
+                            <h3 class="display-3">Zubereitung Step.2 &nbsp; <img src="Bilder/topf.png"></h3>
+                            <hr>
+                            <p class="lead"> 1 Esslöffel ÖI in einem Topf erhitzen, Zwiebel
+                                und Knoblauch darin glasig dünsten. Blattspinat
+                                unaufgetaut zugeben. 100 ml Wasser
+                                angießen und zugedeckt bei mittlerer Hitze
+                                10 Minuten dünsten. Dann die Tomaten zufügen
+                                und weitere 5 Minuten garen.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="jumbotron jumbotron-fluid jumbotron-rezept">
+                        <div class="container">
+                            <h3 class="display-3">Zubereitung Step.3 &nbsp; <img src="Bilder/kellner.png"></h3>
+                            <hr>
+                            <p class="lead"> lnzwischen Feta in 4 gleich große Scheiben
+                                schneiden. Für die Panade das Ei in einem Teller
+                                verquirlen. Semmelbrösel und Thymian auf einem
+                                Teller mischen. Fetascheiben erst in Ei, dann in
+                                der Bröselmischung wälzen.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="jumbotron jumbotron-fluid jumbotron-rezept">
+                        <div class="container">
+                            <h3 class="display-3">Zubereitung Step.4 &nbsp; <img src="Bilder/kellner.png"></h3>
+                            <hr>
+                            <p class="lead"> Das restliche Öl in einer Pfanne erhitzen und die
+                                Käsescheiben darin von jeder Seite in 3-4 Minuten
+                                goldbraun braten.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="jumbotron jumbotron-fluid jumbotron-rezept">
+                        <div class="container">
+                            <h3 class="display-3">Zubereitung Step.5 &nbsp; <img src="Bilder/kellner.png"></h3>
+                            <hr>
+                            <p class="lead"> Spinat gut durchrühren, mit Salz, Pfeffer und
+                                Muskat würzen und zusammen mit dem gebra-
+                                tenen Feta auf Tellern anrichten.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="jumbotron jumbotron-fluid jumbotron-rezept">
+                        <div class="container">
+                            <h3 class="display-3">Tipp &nbsp; <img src="Bilder/kellner.png"></h3>
+                            <hr>
+                            <p class="lead"> Dazu schmeckt knuspriges Fladenbrot, zuvor im
+                                Ofen kurz aufgebacken.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div id="star">
+                        <span id="star1"><i class="far fa-star"></i></span>
+                        <span id="star2"><i class="far fa-star"></i></span>
+                        <span id="star3"><i class="far fa-star"></i></span>
+                        <span id="star4"><i class="far fa-star"></i></span>
+                        <span id="star5"><i class="far fa-star"></i></span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Rezept Snack 5 -->
+<div class="modal fade" id="meinModal5" tabindex="-1" role="dialog" aria-labelledby="meinModalLabel">
+    <div class="modal-dialog " role="document">
+        <div class="modal-content" id="contantBackground">
+            <div class="modal-header">
+                <button id="button-close" type="button" class="close" data-dismiss="modal" aria-label="Schließen"><i
+                        class="fas fa-times-circle"></i></button>
+
+
+                <h3 class="modal-title" id="meinModalLabel">Überbackenes Baguette</h3>
+
+                <hr>
+            </div>
+            <div class="modal-body background3">
+
+                <!-- Rezept 2 inside -->
+
+
+                <table class="table table-striped zutaten-liste">
+                    <thead>
+                    <tr>
+                        <th scope="col">Zutaten</th>
+                        <th scope="col">Menge</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">Kochschinken</th>
+                        <td>150g</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Tomaten</th>
+                        <td>100g</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Frischkäse mit Kräutern</th>
+                        <td>3 Becher</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Ei</th>
+                        <td>1 Stück</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Oregano</th>
+                        <td>1 Teelöffel</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Baguette</th>
+                        <td>1 großes</td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <div id="rezept-box">
+                    <div class="jumbotron jumbotron-fluid jumbotron-rezept">
+                        <div class="container">
+                            <h3 class="display-3">Zubereitung Step.1 &nbsp; <img src="Bilder/messer.png"></h3>
+                            <hr>
+                            <p class="lead"> Backofen auf 200°C vorheizen.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="jumbotron jumbotron-fluid jumbotron-rezept">
+                        <div class="container">
+                            <h3 class="display-3">Zubereitung Step.2 &nbsp; <img src="Bilder/topf.png"></h3>
+                            <hr>
+                            <p class="lead">Schinken würfeln. Tomaten vom Stielansatz
+                                befreien und ebenfalls würfeln.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="jumbotron jumbotron-fluid jumbotron-rezept">
+                        <div class="container">
+                            <h3 class="display-3">Zubereitung Step.3 &nbsp; <img src="Bilder/kellner.png"></h3>
+                            <hr>
+                            <p class="lead"> Frischkäse mit Ei und Oregano verrühren,
+                                Schinken und Tomaten untermischen.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="jumbotron jumbotron-fluid jumbotron-rezept">
+                        <div class="container">
+                            <h3 class="display-3">Zubereitung Step.4 &nbsp; <img src="Bilder/kellner.png"></h3>
+                            <hr>
+                            <p class="lead">Baguette der Länge nach aufschneiden.
+                                Zutaten gut verrühren und gleichmäßig auf
+                                den Hälften verteilen.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="jumbotron jumbotron-fluid jumbotron-rezept">
+                        <div class="container">
+                            <h3 class="display-3">Zubereitung Step.5 &nbsp; <img src="Bilder/kellner.png"></h3>
+                            <hr>
+                            <p class="lead">1m vorgeheizten Backofen 15-20 Minuten
+                                überbacken.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div id="star">
+                        <span id="star1"><i class="far fa-star"></i></span>
+                        <span id="star2"><i class="far fa-star"></i></span>
+                        <span id="star3"><i class="far fa-star"></i></span>
+                        <span id="star4"><i class="far fa-star"></i></span>
+                        <span id="star5"><i class="far fa-star"></i></span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Rezept Snack 6 -->
+<div class="modal fade" id="meinModal6" tabindex="-1" role="dialog" aria-labelledby="meinModalLabel">
+    <div class="modal-dialog " role="document">
+        <div class="modal-content" id="contantBackground">
+            <div class="modal-header">
+                <button id="button-close" type="button" class="close" data-dismiss="modal" aria-label="Schließen"><i
+                        class="fas fa-times-circle"></i></button>
+
+
+                <h3 class="modal-title" id="meinModalLabel">Empanadas Argentinas</h3>
+
+                <hr>
+            </div>
+            <div class="modal-body background3">
+
+                <!-- Rezept 2 inside -->
+
+
+                <table class="table table-striped zutaten-liste">
+                    <thead>
+                    <tr>
+                        <th scope="col">Zutaten</th>
+                        <th scope="col">Menge</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">Zwiebel</th>
+                        <td>1 mittelgroße</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Olivenöl</th>
+                        <td>2 Esslöffel</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"> Gehacktes vom Rind</th>
+                        <td>250g</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">edelsüßes Paprikapulver</th>
+                        <td>ca. 1 TL</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Brühe (Instant)</th>
+                        <td>ca. 2/4 l</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Mehl</th>
+                        <td>300g</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Margarine</th>
+                        <td>100g</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Salz</th>
+                        <td>ca. 1 TL
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Mehl zum Ausrollen</th>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Eier</th>
+                        <td>1-2 Stück</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Fett für das Blech</th>
+                        <td></td>
+                    </tr>
+
+                    </tbody>
+                </table>
+
+                <div id="rezept-box">
+                    <div class="jumbotron jumbotron-fluid jumbotron-rezept">
+                        <div class="container">
+                            <h3 class="display-3">Zubereitung Step.1 &nbsp; <img src="Bilder/messer.png"></h3>
+                            <hr>
+                            <p class="lead"> Für die Füllung Zwiebel schälen und würfeln.
+                                + Olivenöl in einer Pfanne erhitzen. Hackfleisch
+                                darin anbraten. Zwiebel und Paprikapulver unter-
+                                mengen. Wenn die Zwiebel Farbe annimmt, Brühe,
+                                Salz, Oregano und Mehl unterrühren.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="jumbotron jumbotron-fluid jumbotron-rezept">
+                        <div class="container">
+                            <h3 class="display-3">Zubereitung Step.2 &nbsp; <img src="Bilder/topf.png"></h3>
+                            <hr>
+                            <p class="lead">Olivenöl in einer Pfanne erhitzen. Hackfleisch
+                                darin anbraten. Zwiebel und Paprikapulver unter-
+                                mengen. Wenn die Zwiebel Farbe annimmt, Brühe,
+                                Salz, Oregano und Mehl unterrühren.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="jumbotron jumbotron-fluid jumbotron-rezept">
+                        <div class="container">
+                            <h3 class="display-3">Zubereitung Step.3 &nbsp; <img src="Bilder/kellner.png"></h3>
+                            <hr>
+                            <p class="lead"> Alles so lange köcheln Lassen, bis die Brühe fast
+                                vollständig verkocht ist. Vom Herd nehmen und
+                                abkühlen lassen.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="jumbotron jumbotron-fluid jumbotron-rezept">
+                        <div class="container">
+                            <h3 class="display-3">Zubereitung Step.4 <img src="Bilder/kellner.png"></h3>
+                            <hr>
+                            <p class="lead">Hart gekochte Eier pellen, fein würfeln und vor-
+                                sichtig unter die Fleischfüllung heben.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="jumbotron jumbotron-fluid jumbotron-rezept">
+                        <div class="container">
+                            <h3 class="display-3">Zubereitung Step.5 <img src="Bilder/kellner.png"></h3>
+                            <hr>
+                            <p class="lead">Für den Teig Mehl, Margarine und Salz in eine
+                                Schüssel geben. Nach und nach Brühe zugießen
+                                und kneten, bis ein fester, nicht bröckelnder Teig
+                                entstanden ist.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="jumbotron jumbotron-fluid jumbotron-rezept">
+                        <div class="container">
+                            <h3 class="display-3">Zubereitung Step.6 <img src="Bilder/kellner.png"></h3>
+                            <hr>
+                            <p class="lead">Den Teig auf bemehlter Arbeitsfläche 3-4 mm dick
+                                ausrollen und Kreise von ca. 14 cm Durchmesser
+                                ausstechen (dazu eine Untertasse verwenden).
+                            </p>
+                        </div>
+                    </div>
+                    <div class="jumbotron jumbotron-fluid jumbotron-rezept">
+                        <div class="container">
+                            <h3 class="display-3">Zubereitung Step.7 <img src="Bilder/kellner.png"></h3>
+                            <hr>
+                            <p class="lead"> Den Backofen auf 200 oc vorheizen. Die Eier
+                                trennen.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="jumbotron jumbotron-fluid jumbotron-rezept">
+                        <div class="container">
+                            <h3 class="display-3">Zubereitung Step.8 <img src="Bilder/kellner.png"></h3>
+                            <hr>
+                            <p class="lead">Jeden Teigkreis mit etwas Füllung belegen, den
+                                Rand mit Eiweiß bestreichen. Zu Halbkreisen
+                                zusammenlegen und die Ränder mit den Zinken
+                                einer Gabel gut andrücken
+                            </p>
+                        </div>
+                    </div>
+                    <div class="jumbotron jumbotron-fluid jumbotron-rezept">
+                        <div class="container">
+                            <h3 class="display-3">Zubereitung Step.9 <img src="Bilder/kellner.png"></h3>
+                            <hr>
+                            <p class="lead">Empanadas mit Eigelb bestreichen und auf einem
+                                gefetteten Blech verteilen. 1m vorgeheizten Ofen in
+                                ca. 20 Minuten goldgelb backen.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="jumbotron jumbotron-fluid jumbotron-rezept">
+                        <div class="container">
+                            <h3 class="display-3">Tipp: <img src="Bilder/kellner.png"></h3>
+                            <hr>
+                            <p class="lead"> Man kann z. B. Rosinen Oder Möhren mit in die
+                                Füllung geben, die dem Ganzen zum pikanten
+                                noch einen leicht süßlichen Geschmack verleihen.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div id="star">
+                        <span id="star1"><i class="far fa-star"></i></span>
+                        <span id="star2"><i class="far fa-star"></i></span>
+                        <span id="star3"><i class="far fa-star"></i></span>
+                        <span id="star4"><i class="far fa-star"></i></span>
+                        <span id="star5"><i class="far fa-star"></i></span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <!-- Hier entsteht der Footer -->
-      
+
 <footer>
-      <div class="container">
-          <div class="row">
-              <div class="col-sm-2">
-                  <h6>Copyright &copy; 2018</h6>
-              </div>
-              <div class="col-sm-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2">
+                <h6>Copyright &copy; 2018</h6>
+            </div>
+            <div class="col-sm-4">
                 <h6>About</h6>
-                  <p>Diese Seite wurde im Rahmen eines Studienprojektes entwickelt. Sie ziehlt darauf ab Personen zu animieren sich gut und gesund zu ernähren. Des Weiteren ist jeder eingeladen, eigene Ideen und Rezepte vorzuschlagen. Guten Appetit and Stay Healthy.</p>
-                 
-              </div>
-              
-              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="logo-bar">
-                  <h6>Follow US</h6>
-                  <ul class="img-responsive">
-                      <li><a href="#"><img src="Bilder/facebook.png"  style="width:20%" ></a></li>
-                      <li><a href="#"><img src="Bilder/youtube.png"  style="width:20%"></a></li>
-                      <li><a href="#"><img src="Bilder/twitter.png"  style="width:20%"></a></li>
-                  </ul>
-                  
-              </div>
-              <div class="col-sm-2" >
-                  <h6>Coded with <span class="glyphicon glyphicon-heart"></span> byAnthonyAndMichael</h6>
-              </div>
-              
-          </div>
-          
-      </div>
-      
+                <p>Diese Seite wurde im Rahmen eines Studienprojektes entwickelt. Sie ziehlt darauf ab Personen zu
+                    animieren sich gut und gesund zu ernähren. Des Weiteren ist jeder eingeladen, eigene Ideen und
+                    Rezepte vorzuschlagen. Guten Appetit and Stay Healthy.</p>
+
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="logo-bar">
+                <h6>Follow US</h6>
+                <ul class="img-responsive">
+                    <li><a href="#"><img src="Bilder/facebook.png" style="width:20%"></a></li>
+                    <li><a href="#"><img src="Bilder/youtube.png" style="width:20%"></a></li>
+                    <li><a href="#"><img src="Bilder/twitter.png" style="width:20%"></a></li>
+                </ul>
+
+            </div>
+            <div class="col-sm-2">
+                <h6>Coded with <span class="glyphicon glyphicon-heart"></span> byAnthonyAndMichael</h6>
+            </div>
+
+        </div>
+
+    </div>
+
 </footer>
 <script src="js/jquery.js"></script>
-   
+
 <script src="js/bootstrap.js"></script>
-   <script>
-          /*Scroll-Reveal */
-          /*Muss eventuell wieder gelöscht werden Absprache */
-          
-          window.sr=ScrollReveal();
-         sr.reveal('.main-title',{
-              duration:2000,
-              origin:'top',
-              distance:'100px',
-              mobile: true
-          })
-         sr.reveal('.c1',{
-              duration:2000,
-              origin:'left',
-              distance:'300px',
-              mobile: true
-          })
-       
-          sr.reveal('.c2',{
-              duration:2000,
-              origin:'top',
-              distance:'300px',
-              mobile: true
-          })
-        sr.reveal('.c3',{
-              duration:2000,
-              origin:'right',
-              distance:'300px',
-              mobile: true
-          })
-          sr.reveal('.c4',{
-              duration:2000,
-              origin:'left',
-              distance:'300px',
-              mobile: true
-          })
-       
-          sr.reveal('.c5',{
-              duration:2000,
-              origin:'bottom',
-              distance:'300px',
-              mobile: true
-          })
-        sr.reveal('.c6',{
-              duration:2000,
-              origin:'right',
-              distance:'300px',
-              mobile: true
-          })
-       
-       
-      </script>
-      
-     <script>
-      /*Logo vergörßert rotiert und vergrößert sich beim scrollen*/  
-    $(document).on("scroll", function(){
-		if
-      ($(document).scrollTop() > 500){
-		  $(".navbar-default").addClass("kleiner");
-		}
-		else
-		{
-			$(".navbar-default").removeClass("kleiner");
-		}
-	});
-    
-    </script>
-      
-    </body>
-      
-    
+<script>
+    /*Scroll-Reveal */
+    /*Muss eventuell wieder gelöscht werden Absprache */
+
+    window.sr = ScrollReveal();
+    sr.reveal('.main-title', {
+        duration: 2000,
+        origin: 'top',
+        distance: '100px',
+        mobile: true
+    })
+    sr.reveal('.c1', {
+        duration: 2000,
+        origin: 'left',
+        distance: '300px',
+        mobile: true
+    })
+
+    sr.reveal('.c2', {
+        duration: 2000,
+        origin: 'top',
+        distance: '300px',
+        mobile: true
+    })
+    sr.reveal('.c3', {
+        duration: 2000,
+        origin: 'right',
+        distance: '300px',
+        mobile: true
+    })
+    sr.reveal('.c4', {
+        duration: 2000,
+        origin: 'left',
+        distance: '300px',
+        mobile: true
+    })
+
+    sr.reveal('.c5', {
+        duration: 2000,
+        origin: 'bottom',
+        distance: '300px',
+        mobile: true
+    })
+    sr.reveal('.c6', {
+        duration: 2000,
+        origin: 'right',
+        distance: '300px',
+        mobile: true
+    })
+
+
+</script>
+
+<script>
+    /*Logo vergörßert rotiert und vergrößert sich beim scrollen*/
+    $(document).on("scroll", function () {
+        if
+        ($(document).scrollTop() > 500) {
+            $(".navbar-default").addClass("kleiner");
+        }
+        else {
+            $(".navbar-default").removeClass("kleiner");
+        }
+    });
+
+</script>
+
+</body>
+
+
 </html>

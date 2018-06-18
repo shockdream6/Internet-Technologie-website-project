@@ -15,7 +15,7 @@
     <script src="js/jquery.js"></script>
     <script src="js/index.js"></script>
     //connects to mysql database
-    <? require_once 'init.php'; ?>
+    <? require_once 'php/init.php'; ?>
     <!-- Favicon -->
     <link rel="icon" href="Bilder/logo.ico" type="image/x-icon">
 
@@ -287,7 +287,7 @@
             <h3 class="text-center">Sag uns deine Meinung und gebe uns neue Inspirationen</h3>
             <hr>
         </div>
-        <form method="post" action="formContact.php">
+        <form method="post" action="php/formContact.php">
             <div class="form-group ">
                 <input type="text" class="form-control" id="name" placeholder="Name" name="name">
             </div>
