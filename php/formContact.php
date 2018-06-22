@@ -8,7 +8,7 @@
 
 require_once 'init.php';
 
-//gets the variable through post from index.php
+//gets the variable through post from index.html
 $name = filter_input(INPUT_POST, 'name');
 $eMail = filter_input(INPUT_POST, 'eMail');
 $message = filter_input(INPUT_POST, 'message');
@@ -25,23 +25,24 @@ if (!empty($name)) {
             if ($db->query($sql)) {
                 echo "New record is inserted sucessfully";
                 $successful = true;
-                header('Location: index.php?successForm=' . $successful);
+                header('Location: ../index.html?successForm=' . $successful);
             } else {
                 echo "Error: " . $sql . "<br>" . $db->error;
+                header('Location: ../index.html?successForm=' . $successful);
             }
         } else {
             echo "Nachrichtfeld sollte nicht leer sein";
+            header('Location: ../index.html?successForm=' . $successful);
             die();
-            header('Location: index.php?successForm=' . $successful);
         }
     } else {
         echo "E-Mailfeld sollte nicht leer sein";
+        header('Location: ../index.html?successForm=' . $successful);
         die();
-        header('Location: index.php?successForm=' . $successful);
     }
 } else {
     echo "Name sollte nicht leer sein";
+    header('Location: ../index.html?successForm=' . $successful);
     die();
-    header('Location: index.php?successForm=' . $successful);
 }
 

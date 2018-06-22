@@ -125,10 +125,6 @@ hr{
 .thumbnail{
     transition: 0.5s ease;
     box-shadow:0 8px 5px rgba(0,0,0,0.3);
-<<<<<<< HEAD
-
-=======
->>>>>>> master
 }
 .thumbnail button span{
     cursor:pointer;
